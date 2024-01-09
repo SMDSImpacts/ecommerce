@@ -11,7 +11,6 @@ import HoverLinks from "./HoverLinks";
 import CheckOut from "./CheckOut";
 import EmailSend from "./EmailSend";
 import CustomLinks from "./CustomLinks";
-import HoverLink from "./SwiperComp";
 import getFirestoreData from "./GetFirestoreData";
 import Menus from "./navBars/Menus";
 import SubItems from "./SubItems";
@@ -31,8 +30,7 @@ export {
     HoverLinks,
     CheckOut,
     EmailSend,
-    CustomLinks,
-    HoverLink,
+    CustomLinks,    
     getFirestoreData,
     Menus,
     SubItems,

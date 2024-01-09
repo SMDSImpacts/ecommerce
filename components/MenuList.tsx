@@ -20,7 +20,7 @@ const MenuList: React.FC<MenuListProps> = ({SubMenuTitle, title1, title2, title3
   return (
     <>
     <div>
-    <Link href="/" className='mt-3 flex'>
+    <Link href="/" className='mt-3 flex ml-8'>
       {SubMenuTitle}      
     </Link>
     </div>

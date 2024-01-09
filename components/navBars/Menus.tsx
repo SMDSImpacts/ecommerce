@@ -25,11 +25,11 @@ const Menus: React.FC<MenusProps> = ({ MenuItem, SubMenu}) => {
             </button>
         ))}                
       </div>           
-      <div className="dropdown-content transition-all ease-in-out duration-700 text-[12px] font-medium flex left-1/4 transform -translate-x-1/2 px-4 w-96 z-20" >
-        <div>
+      <div className="dropdown-content transition-all ease-in-out duration-700 text-[12px] font-medium flex left-1/3 transform -translate-x-1/2 px-4 w-96 z-20 relative" >
+        <div className="relative">
         {SubMenu.map((sub:any) => (
             <>
-            <div key={sub} className="flex">
+            <div key={sub} className="flex relative">
                 <MenuList title1={sub.title1}  title2={sub.title2} url2={sub.url2} title3={sub.title3} url3={sub.url3} title4={sub.title4} url4={sub.url4} SubMenuTitle={sub.SubMenuTitle} />                
             </div>
             

@@ -2,7 +2,7 @@ import { Nav, MenuBar, AdsBar } from "..";
 
 const navBars = () => {
   return (
-    <div>
+    <div className="">
         <AdsBar />
         <Nav />
         <MenuBar />
